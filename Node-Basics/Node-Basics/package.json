@@ -1,0 +1,26 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbytarun/Learning-MERN-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devbytarun/Learning-MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/devbytarun/Learning-MERN-Stack#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
