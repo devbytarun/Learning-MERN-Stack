@@ -1,6 +1,7 @@
-import ProfileCard from './PorfileCard'
-import Counter from './Counter'
-import Timer from './timer'
+import ProfileCard from "./PorfileCard";
+import Counter from "./Counter";
+import Timer from "./timer";
+import UserList from "./UserList";
 
 function Lesson() {
   return (
@@ -8,8 +9,9 @@ function Lesson() {
       <ProfileCard name="dev_raj" age={22} isStudent={true} />
       <Counter />
       <Timer />
+      <UserList />
     </>
-  )
+  );
 }
 
-export default Lesson
+export default Lesson;
